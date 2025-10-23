@@ -1,7 +1,6 @@
 #include <iostream>
 int main()
 {
-    std::string str = "\n#include <iostream>;\nint main()\n{\nstd::string str = \"%s\";\nprintf(str.c_str(), str.c_str());\nreturn 0;\n}\n";
-    printf(str.c_str(), str.c_str());
+    std::cout << "\n#include <iostream>;\nint main()\n{\nstd::cout << \"\n#include <iostream>;\nint main()\n{\nstd::cout << main.cpp;\nreturn 0;\n}\n\";\nreturn 0;\n}\n";
     return 0;
 }
